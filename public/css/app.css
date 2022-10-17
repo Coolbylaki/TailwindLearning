@@ -825,10 +825,6 @@ header select > option{
   flex-direction: column;
 }
 
-.gap-1{
-  gap: 0.25rem;
-}
-
 .overflow-hidden{
   overflow: hidden;
 }
@@ -942,9 +938,9 @@ header select > option{
   background-color: rgb(15 23 42 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-gray-100:hover{
+.hover\:bg-primary-light:hover{
   --tw-bg-opacity: 1;
-  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+  background-color: rgb(218 230 233 / var(--tw-bg-opacity));
 }
 
 .hover\:wrapper:hover{

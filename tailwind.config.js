@@ -9,6 +9,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors: {
+        primary: {
+          light: "#dae6e9",
+          DEFAULT: "#0000ff",
+          dark: "#302b54",
+        }
+      },
       fontFamily: {
         sans: ["Roboto", ...defaultTheme.fontFamily.sans],
       }
