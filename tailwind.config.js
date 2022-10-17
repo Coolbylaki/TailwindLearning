@@ -9,6 +9,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      spacing: {
+        "30": "7.5rem",
+        "15": "3.75rem",
+      },
       screens: {
         "2xl": "2560px",
         huge: "4000px",
