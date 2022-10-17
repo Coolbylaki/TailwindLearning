@@ -442,6 +442,12 @@ form label{
   font-weight: 700;
 }
 
+@media (min-width: 4000px){
+  #container {
+    min-height: calc(1000px - 7.5rem)
+  }
+}
+
 form input:not([type=submit]:not([type=checkbox])),  
     form textarea{
   margin-bottom: 0.5rem;
@@ -779,6 +785,14 @@ header select > option{
   margin-left: 12rem;
 }
 
+.ml-1{
+  margin-left: 0.25rem;
+}
+
+.ml-10{
+  margin-left: 2.5rem;
+}
+
 .inline-block{
   display: inline-block;
 }
@@ -885,10 +899,6 @@ header select > option{
   padding: 0.5rem;
 }
 
-.p-30{
-  padding: 7.5rem;
-}
-
 .py-1{
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
@@ -897,6 +907,18 @@ header select > option{
 .px-2{
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+}
+
+.pl-10{
+  padding-left: 2.5rem;
+}
+
+.pl-2{
+  padding-left: 0.5rem;
+}
+
+.pl-1{
+  padding-left: 0.25rem;
 }
 
 .text-center{

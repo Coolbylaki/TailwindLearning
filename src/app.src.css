@@ -25,6 +25,13 @@
         @apply font-bold block text-lg
     }
 
+    @media screen(huge){
+        #container {
+            min-height: calc(1000px - theme("spacing.30"))
+        }
+    }
+
+
     .input-base {
         @apply w-full p-1 text-lg
                ring ring-gray-400 
