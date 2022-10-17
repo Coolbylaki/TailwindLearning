@@ -742,9 +742,15 @@ header select > option{
   }
 }
 
-@media (min-width: 1536px){
+@media (min-width: 2560px){
   .container{
-    max-width: 1536px;
+    max-width: 2560px;
+  }
+}
+
+@media (min-width: 4000px){
+  .container{
+    max-width: 4000px;
   }
 }
 
