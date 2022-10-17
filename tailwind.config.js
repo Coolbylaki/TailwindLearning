@@ -2,6 +2,13 @@ const defaultTheme = require("tailwindcss/defaultTheme")
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  // prefix: "my-", when you want to not collide with other libraries
+  // separator: "_", changes the - separator inside tailwind classes
+  // important: true, default is false, with true it marks all our new classes with important
+  // corePlugins: {
+  //   preflight: false,
+  //   accentColor: false,
+  // }, many plugins that you can modify and turn on or off
   darkMode: "class",
   content: [
     "./src/**/*.{html,js}",
