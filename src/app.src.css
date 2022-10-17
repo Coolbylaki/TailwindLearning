@@ -21,6 +21,14 @@
         @apply text-lg
     }
     
+    form label {
+        @apply font-bold block text-lg
+    }
+
+    form input:not([type=submit]:not([type=checkbox])),
+    form textarea {
+        @apply w-full p-1 text-lg ring ring-gray-400 mb-2 rounded focus:bg-yellow-50 focus:outline-none focus:ring-yellow-400 placeholder:text-gray-400 placeholder:font-normal ;
+    }
 }
 
 @layer utilities{
